@@ -86,7 +86,7 @@ const products: Product[] = [
 ];
 
 // HeroParallax component
-const HeroParallax = () => {
+const HeroParallel = () => {
   const firstRow = products.slice(0, 5);
   const secondRow = products.slice(5, 10);
 
@@ -201,4 +201,4 @@ const ProductCard = ({
   </motion.div>
 );
 
-export default HeroParallax;
+export default HeroParallel;
