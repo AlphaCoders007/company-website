@@ -85,7 +85,6 @@ const products: Product[] = [
   },
 ];
 
-// HeroParallax component
 const HeroParallel = () => {
   const firstRow = products.slice(0, 5);
   const secondRow = products.slice(5, 10);
